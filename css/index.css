@@ -5,7 +5,7 @@
 
 input[type="text"],
 input[type="email"],
-input[type="number"],
+input[type="tel"],
 input[type="address"],
 input[type="user_city"] {
   width: 100%;
@@ -44,7 +44,9 @@ input[type="user_city"] {
   margin-bottom: 25px;
 }
 
-input:focus {
+input:focus,
+select:focus,
+textarea:focus {
   background: cornflowerblue;
   transition: background 2s;
 }
@@ -156,5 +158,8 @@ button:hover {
   form {
     max-width: 768px;
     margin: 0 auto;
+  }
+  .zcode {
+  width: 50%;
   }
 }
