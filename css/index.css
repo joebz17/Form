@@ -18,7 +18,9 @@ input[type="user_city"] {
 .zcode {
   height: 55px;
 }
-
+#zip{
+  width:50%;
+}
 .contact_info {
   padding-bottom: 25px;
 }
